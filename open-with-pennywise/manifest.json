@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Open with Pennywise",
+  "author": "Alex Ward (alxwrd@googlemail.com)",
+  "homepage_url": "https://github.com/alxwrd/open-with-pennywise",
+  "version": "1.0",
+  "description": "Adds a context menu item that can send a url to Pennywise",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+      "contextMenus"
+  ],
+  "icons": {
+    "16": "icon/pennywise.png",
+    "32": "icon/pennywise.png",
+    "48": "icon/pennywise.png"
+  }
+}
