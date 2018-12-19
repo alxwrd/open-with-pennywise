@@ -9,7 +9,7 @@ var checker = setInterval(ping, 5000);
 ping();
 
 function ping() {
-  fetch(pennywiseUrl + "/ping", {
+  fetch(pennywiseUrl, {
     method: "GET",
     mode: "no-cors"
   })
