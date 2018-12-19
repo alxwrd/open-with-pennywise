@@ -11,7 +11,9 @@
     ]
   },
   "permissions": [
-      "contextMenus"
+      "contextMenus",
+      "webRequest",
+      "*://localhost:6280/*"
   ],
   "icons": {
     "16": "icon/pennywise.png",
