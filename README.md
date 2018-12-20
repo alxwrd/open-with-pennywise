@@ -11,3 +11,5 @@ Youtube, Vimeo, Twitch, and Daily Motion.
 
 [firefox-badge]: https://img.shields.io/badge/firefox-555555.svg?logo=Mozilla%20Firefox
 [chrome-badge]: https://img.shields.io/badge/chrome-555555.svg?logo=Google%20Chrome&logoColor=whitesmoke
+
+![demo gif](https://i.imgur.com/4NyC2kn.gif)
