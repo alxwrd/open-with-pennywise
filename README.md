@@ -1,7 +1,7 @@
 # <img src="https://i.imgur.com/bKsns66.png" height="37" style="vertical-align: middle;"> Open with Pennywise
 
-[![firefox add-on][firefox-badge]](https://addons.mozilla.org/en-GB/firefox/addon/open_with_pennywise)
-[![chrome extention][chrome-badge]](https://chrome.google.com/webstore/detail/open_with_pennywise)
+[![firefox add-on][firefox-badge]](https://addons.mozilla.org/en-GB/firefox/addon/open-with-pennywise/)
+[![chrome extention][chrome-badge]](https://chrome.google.com/webstore/detail/open-with-pennywise/fhjdagpiceeimbmhamgebiflkjibgbkk)
 
 
 A Chrome/Firefox extension to send a url to [Pennywise](https://github.com/kamranahmedse/pennywise)
