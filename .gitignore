@@ -2,6 +2,8 @@
 # Created by https://www.gitignore.io/api/node,linux,windows
 # Edit at https://www.gitignore.io/?templates=node,linux,windows
 
+*.zip
+
 ### Linux ###
 *~
 
