@@ -16,7 +16,10 @@ Youtube, Vimeo, Twitch, and Daily Motion.
 [chrome-badge]: https://img.shields.io/badge/chrome-555555.svg?logo=Google%20Chrome&logoColor=whitesmoke
 
 <p align="center">
-  <a href="https://i.imgur.com/INueYnn.gif">
-    <img src="https://i.imgur.com/RrItEJz.gif" width="432">
+  <a href="https://i.imgur.com/inRBbY8.gif">
+    <img src="https://i.imgur.com/inRBbY8.gif" width="75%">
+  </a>
+  <a href="https://i.imgur.com/YMEzPey.gif">
+    <img src="https://i.imgur.com/YMEzPey.gif" width="75%">
   </a>
 </p>

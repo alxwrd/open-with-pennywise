@@ -30,11 +30,23 @@ function ping() {
 browser.menus.onClicked.addListener((info, tab) => {
   switch (info.menuItemId) {
     case menuItemId:
-      fetch(pennywiseUrl + "?url=" + info.linkUrl, {
-        method: "GET",
-        mode: "no-cors"
-      });
-
+      openInPennywise(info.linkUrl)
       break;
   }
 });
+
+
+browser.browserAction.onClicked.addListener(() => {
+  browser.tabs.query({ currentWindow: true, active: true },
+    (tabs) => {
+      openInPennywise(tabs[0].url);
+    })
+})
+
+
+var openInPennywise = (url) => {
+  fetch(pennywiseUrl + "?url=" + url, {
+    method: "GET",
+    mode: "no-cors"
+  });
+}
