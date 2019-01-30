@@ -32,10 +32,12 @@ function ping() {
         });
       });
       browser.browserAction.setIcon({ path: icons })
+      browser.browserAction.setPopup({ popup: "" })
     })
     .catch(error => {
       browser.menus.remove(menuItemId);
       browser.browserAction.setIcon({ path: iconsInactive })
+      browser.browserAction.setPopup({ popup: "error.html" })
     });
 }
 
