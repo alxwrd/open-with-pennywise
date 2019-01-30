@@ -4,6 +4,16 @@ browser.menus = browser.contextMenus;
 const pennywiseUrl = "http://localhost:6280";
 const menuItemId = "open-with-pennywise";
 
+const iconSizes = [16, 32, 48];
+
+const icons = iconSizes.reduce(
+  (obj, num) => (obj[num] = `icon/pennywise-${num}.png`, obj), {}
+);
+
+const iconsInactive = iconSizes.reduce(
+  (obj, num) => (obj[num] = `icon/pennywise-inactive-${num}.png`, obj), {}
+);
+
 var checker = setInterval(ping, 5000);
 
 ping();
@@ -21,9 +31,11 @@ function ping() {
           contexts: ["link"]
         });
       });
+      browser.browserAction.setIcon({ path: icons })
     })
     .catch(error => {
       browser.menus.remove(menuItemId);
+      browser.browserAction.setIcon({ path: iconsInactive })
     });
 }
 
